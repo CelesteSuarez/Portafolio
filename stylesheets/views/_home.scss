@@ -123,7 +123,8 @@ h4 {
 
 @media screen and (max-width:$screen-phone){
 
-  }
+  
+}
 
 .title-me {
   background-color: white;
@@ -137,7 +138,7 @@ h4 {
 
 .poema{
   width: 100%;
-  padding: 2%;
+  font-family: monospace;
 }
 
 .yo{
@@ -174,13 +175,8 @@ p.yo.center {
 }
 
 .footer{
-  background-color: gray;
+  background-color: #E67E22;
   width: 100%;
   margin-top:5%;
 }
-
-.poesia{
-  font-family:initial;
-}
-
 

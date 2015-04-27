@@ -5730,7 +5730,7 @@ h4 {
 
 .poema {
   width: 100%;
-  padding: 2%; }
+  font-family: monospace; }
 
 .yo {
   padding: 10px; }
@@ -5759,12 +5759,9 @@ p.yo.center {
   margin: 0 auto; }
 
 .footer {
-  background-color: gray;
+  background-color: #E67E22;
   width: 100%;
   margin-top: 5%; }
-
-.poesia {
-  font-family: initial; }
 
 .p-0 {
   padding: rem(0) !important;
