@@ -11,7 +11,7 @@
 </head>
 <body>
 	<nav class="navbar navbar-default"><!--INICIO:Navbar-->
-		<div class="container">
+		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 					<span class="sr-only">Toggle navigation</span>
@@ -31,82 +31,115 @@
 		</div>
 	</nav><!--END:Navbar-->
 	<div class="fotoportada"><!--INICIO:Fotoportada-->
- 			<img class="portada"src="img/ahorasiportada.png"> 
- 			<div class="filtro"></div>
- 			<div class="text-center">
+ 			<div class="textocentro">
  				<h3>Celeste Suarez</h3>
  				<h4>Desarrolladora web</h4>
  			</div>
 	</div><!--Parent container-->
 	<div class="about" id="about"><!--INICIO:Abaut-->
 	<div class="container-fluid">
-		<div class="row">
 			<div class="title-me">
-					<h1 class="center">Sobre mí</h1>
+				<h1 class="center">Sobre mí</h1>
 			</div>
-			<div class="contenido-about">
-				<div class="col-md-4 col-sm-2">
+		<div class="row m-0">
+			<div class="col-md-4">
+				<div class="content">
 					<div class="poema">
-						<h2 class="center">Oda al HTML</h2>
-				 			<p>Unas cajas</p>
-							<p>ingeniosas, de colores,fantasiosas</p>
-							<p>Me permiten volver a creer</p>
-							<p>Y crear</p>
-							<p>Me ilusiono</p>
-							<p>Con lo que de niña soñaba,</p>
-							<p>¡Con cambiar el mundo!</p>
-							<p>Hoy con una etiqueta div</p>
-							<p>Que es una caja</p>
-							<p>Que abraza con amor a otras cajas</p>
-							<p>que son cada parte de mi home</p>
-							<p>Luego de ver la necesidad del cliente</p>
-							<p>Se crea la página web</p>
-							<p>Una hermosa página web</p>Para así ser unas cajas hermosas
-							<p>Con belleza y sentido</p>
-							<p>Como siento tengo ahora</p>
-							<p>Desde que empecé</p>
-							<p>a hablar el lenguaje</p>
-							<p>Del html</p>
-				</div><!--END:Poema-->
-			</div>
-		<div class="col-md-4 col-sm-2">
-			<div class="white">
-				<img class="me"src="img/yo.jpg">
-					<p class="yo center">Hice Teatro 5 años, estudié en la ENSAD, una lesión me alejó de mi carrera, y ahora, gracias a Laboratoria puedo seguir creando con los lenguajes que he venido aprendiendo, y los cuales me rescataron ahora puedo seguir creando, ya no personajes sino ahora sueños a través de una página web. Escribo poesía ("Roto"sello Animal Literario,2015),cultivo plantas que luego regalo y tengo una banda de rock fusión.</p>
-			</div>
+							<h2 class="center">Oda al HTML</h2>
+					 			<p class="poesia">Unas cajas</p>
+								<p class="poesia">ingeniosas, de colores,fantasiosas</p>
+								<p class="poesia">Me permiten volver a creer</p>
+								<p class="poesia">Y crear</p>
+								<p class="poesia">Me ilusiono</p>
+								<p class="poesia">Con lo que de niña soñaba,</p>
+								<p class="poesia">¡Con cambiar el mundo!</p>
+								<p class="poesia">Hoy a través de una etiqueta "div"</p>
+								<p class="poesia">Que es una caja</p>
+								<p class="poesia">Que abraza con amor a otras cajas</p>
+								<p class="poesia">que son cada parte de mi home</p>
+								<p class="poesia">Luego de ver la necesidad del cliente</p>
+								<p class="poesia">Se crea una página web</p>
+								<p class="poesia">Una hermosa página web</p>
+								<p class="poesia">Con belleza y sentido</p>
+								<p class="poesia">Como siento tengo ahora</p>
+								<p class="poesia">Tengo desde que empecé</p>
+								<p class="poesia">a entender el lenguaje del</p>
+								<p class="poesia">html</p>
+					</div><!--END:Poema-->
+				</div><!--END:content-->
+			</div><!--END:col-md-->
+			<div class="col-md-4">
+				<div class="content">
+					<div class="white">
+							<img class="me"src="img/yo.jpg">
+							<p class="yo center">Hice Teatro 5 años, estudié en la ENSAD, una lesión me alejó de mi carrera, y ahora, gracias a <a href="http://laboratoria.la/">Laboratoria</a> puedo seguir creando con los lenguajes que he venido aprendiendo, y los cuales me rescataron. Ahora puedo seguir creando, ya no personajes sino ahora, sueños a través de una página web. Escribo poesía ("Roto"sello Animal Literario,2015),cultivo plantas que luego regalo y tengo una banda de rock fusión.</p>
+					</div><!--END:white-->
 				</div>
-			<div class="col-md-4 col-sm-2">
-				<div class="skills">
+			</div>
+			<div class="col-md-4">
+				<div class="content">
 					<div class="title-skills">	
 						<h2 class="center">Habilidades</h2>
 					</div>
-						<div class="contenido-skills">
-							<p>Html5 & CSS3 ****</p>
-							<p>Sass***</p>
-							<p>JavaScript*</p>
-							<p>Responsive desing***</p>
-							<p>Posicionamiento SEO**</p>
-							<p>Git Git-Hub**</p>
-							<p>Comunity Manager**</p>
-						</div>
-						</div>
+					<div class="progress">
+	  					<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="			100" style="width: 85%">HTML5
+	    					<span class="sr-only">40% Complete (success)</span>
+	  					</div>
+					</div>
+					<div class="progress">
+	  					<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" 			style="width: 80%">CSS3
+	    					<span class="sr-only">20% Complete</span>
+	  					</div>
+					</div>
+					<div class="progress">
+	  					<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" 			style="width: 40%">JavaScript & jQuery
+	    					<span class="sr-only">20% Complete</span>
+	  					</div>
+					</div>
+						<div class="progress">
+	  					<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" 			style="width: 80%">Sass & Bootstrap
+	    					<span class="sr-only">20% Complete</span>
+	  					</div>
+					</div>
+					<div class="progress">
+		  				<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="			100" style="width: 65%">UX
+		    				<span class="sr-only">60% Complete (warning)</span>
+		  				</div>
+					</div>
+					<div class="progress">
+		  				<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100			" style="width: 55%">Responsive desing
+		    				<span class="sr-only">80% Complete (danger)</span>
+		  				</div>
+					</div>
+					<div class="progress">
+		  				<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100			" style="width: 45%">Posicionamiento SEO
+		    				<span class="sr-only">40% Complete (danger)</span>
+		  				</div>
+					</div>
+					<div class="progress">
+		  				<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100			" style="width: 38%">Comunity manager
+		    				<span class="sr-only">35% Complete (danger)</span>
+		  				</div>
+					</div>
 				</div>
-		</div>
-	</div>
-	</div><!--END:Abaut-->
-</div>
+			</div>
+		</div><!--END:row-->
+	</div><!--END:container fluid-->
+	</div><!--END:About-->
+
+		<!--ACA EMPIEZA EL PORTAFOLIO-->
 		<div class="portafolio" id="Portafolio">
 		<div class="title-me">
 				<h2 class="center">Portafolio</h2>
 		</div>
 		<div class="container-fluid">
-			<div class="row">
+			<div class="row m-0">
 				<div class="col-md-6 col-sm-12"><div class="gray"><img class="work"src="img/1project.png"></div></div>
 				<div class="col-md-6 col-sm-12"><div class="gray"><img class="work"src="img/1project.png"></div></div>
 			</div>
 		</div>
 		<div class="container-fluid">
-			<div class="row">
+			<div class="row m-0">
 				<div class="col-md-6 col-sm-12"><div class="gray"><img class="work"src="img/1project.png"></div></div>
 				<div class="col-md-6 col-sm-12"><div class="gray"><img class="work"src="img/1project.png"></div></div>
 			</div>
@@ -135,25 +168,25 @@
 				<p class="center">Desarollado por Celeste</p>	
 				<div class="container"><!--INICIO:container-->
 				<div class="redes"><!--INICIO:Redes-->
-					<div class="row">
+					<div class="row m-0">
 						<div class="col-md-3 sm-6"><!--INICIO:1 Columna-->
 							<div class="social-linkedin center">
-								<img class="iconos"src="img/in.png">
+								<a href="https://www.linkedin.com/profile/view?id=413515706&trk=nav_responsive_tab_profile"><img class="iconos"src="img/in.png"></a>
 					 		</div>
 					 	</div><!--END:1 columna-->
 							<div class="col-md-3 sm-6"><!--INICIO:2 Columna-->
 									<div class="social-pinterest center">
-										<img class="iconos"src="img/pin.png">
+										<a href="https://www.pinterest.com/urpichay/"><img class="iconos"src="img/pin.png"></a>
 								 </div>
 							</div><!--END:2 Columna-->
 								<div class="col-md-3 sm-6"><!--INICIO:3 Columna-->
 										<div class="social-github center">
-												<img class="iconos"src="img/github.png">
+											<a href="https://github.com/CelesteSuarez"><img class="iconos"src="img/github.png"></a>	
 										</div>
 									</div><!--END:3 Columna-->
 										<div class="col-md-3 sm-6"><!--INICIO:col-md-4 Columna-->
 										<div class="social-skype center">
-												<img class="iconos"src="img/skype.png">
+												<a href="http://www.skype.com/"><img class="iconos" src="img/skype.png"></a>
 											</div>
 									</div><!--END:4 Columna-->
 							</div>
@@ -164,7 +197,7 @@
 		</script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js">
     </script>
-    <script>
+    <script><!--INICIO: Baje soft-->
     	$(function() {
 			  $('a[href*=#]:not([href=#])').click(function() {
 			    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -179,6 +212,6 @@
 			    }
 			  });
 			});
-    </script>
+    </script><!--END:baje soft-->
 </body>
 </html>
