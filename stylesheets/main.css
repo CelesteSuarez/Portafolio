@@ -5736,10 +5736,15 @@ h4 {
   padding: 10px; }
 
 p.yo.center {
-  padding: 10px;
+  padding: 10px 126px 10px 126px;
   text-align: center;
   font-family: monospace; }
 
+@media screen and (max-width: 480px) {
+  p.yo.center {
+    padding: 0px;
+    text-align: center;
+    font-family: monospace; } }
 .lyric {
   font-family: initial; }
 
@@ -5748,6 +5753,9 @@ p.yo.center {
 
 .skills {
   width: 100%; }
+
+.progreso-skills {
+  margin-top: 70px; }
 
 .contenido-skills {
   font-size: 35px;
