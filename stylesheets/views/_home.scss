@@ -41,17 +41,16 @@ img.logo {
  } 
 
 h2{
-  font-family:monospace;
+  font-family:Lobster;
 }
 
 h3{
   font-size: 85px;
-  font-family: Lobster;
 }
 
 h4 {
   font-size: 28px;
-  font-family: monospace;
+  font-family: Lato;
   }
 
 
@@ -62,6 +61,7 @@ h4 {
   .center{
   	text-align: center;
   }
+
 
   .me {
     width: 55%;
@@ -122,10 +122,10 @@ h4 {
 }
 
 
-
 .title-me {
   background-color: white;
   padding: 2%;
+  font-family: Lobster;
   }
 
 .about{
@@ -146,6 +146,8 @@ p.yo.center {
   padding: 10px 126px 10px 126px;
   text-align: center;
   font-family:monospace;
+  font-style: italic;
+
   }
 
 @media screen and (max-width:$screen-phone){

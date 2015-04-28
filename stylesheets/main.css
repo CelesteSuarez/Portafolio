@@ -5656,15 +5656,14 @@ h1 {
   font-family: Lobster; }
 
 h2 {
-  font-family: monospace; }
+  font-family: Lobster; }
 
 h3 {
-  font-size: 85px;
-  font-family: Lobster; }
+  font-size: 85px; }
 
 h4 {
   font-size: 28px;
-  font-family: monospace; }
+  font-family: Lato; }
 
 .abaut {
   width: 100%; }
@@ -5722,7 +5721,8 @@ h4 {
 
 .title-me {
   background-color: white;
-  padding: 2%; }
+  padding: 2%;
+  font-family: Lobster; }
 
 .about {
   width: 100%;
@@ -5738,7 +5738,8 @@ h4 {
 p.yo.center {
   padding: 10px 126px 10px 126px;
   text-align: center;
-  font-family: monospace; }
+  font-family: monospace;
+  font-style: italic; }
 
 @media screen and (max-width: 480px) {
   p.yo.center {
@@ -6227,5 +6228,8 @@ p.yo.center {
 
 .text-center {
   text-align: center; }
+
+.text-lobster {
+  font-family: Lobster; }
 
 /*# sourceMappingURL=main.css.map */
