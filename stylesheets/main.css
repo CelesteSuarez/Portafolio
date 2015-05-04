@@ -5635,6 +5635,7 @@ button.close {
 img.logo {
   width: 70px; }
 
+/*Navbar*/
 .navbar {
   position: relative;
   min-height: 55px;
@@ -5665,18 +5666,21 @@ h4 {
   font-size: 28px;
   font-family: Lato; }
 
-.abaut {
+/*Portada*/
+.fotoportada {
+  position: relative;
+  background: url(../img/ahorasiportada.png) no-repeat center center scroll;
+  background-size: cover;
+  height: 100%;
+  display: table;
   width: 100%; }
 
-.center {
-  text-align: center; }
-
-.me {
-  width: 55%;
-  margin: 0 auto;
-  position: relative;
-  left: 22%;
-  padding-top: 40px; }
+.textocentro {
+  text-align: center;
+  color: white;
+  z-index: 10;
+  display: table-cell;
+  vertical-align: middle; }
 
 .portada {
   width: 100%;
@@ -5693,44 +5697,33 @@ h4 {
 .cajalogo {
   width: 50%; }
 
-.portafolio {
-  min-height: 50px; }
-
-.work {
-  max-width: 100%;
-  padding: 5%;
-  background-color: #bdc3c7; }
-
-.gray {
-  background-color: gray; }
-
-.fotoportada {
-  position: relative;
-  background: url(../img/ahorasiportada.png) no-repeat center center scroll;
-  background-size: cover;
-  height: 100%;
-  display: table;
-  width: 100%; }
-
-.textocentro {
-  text-align: center;
-  color: white;
-  z-index: 10;
-  display: table-cell;
-  vertical-align: middle; }
-
 .title-me {
   background-color: white;
   padding: 2%;
   font-family: Lobster; }
 
+/*About*/
 .about {
   width: 100%;
   background-image: url(../img/wall4.png); }
 
+.center {
+  text-align: center; }
+
+.me {
+  width: 55%;
+  margin: 0 auto;
+  position: relative;
+  left: 22%;
+  padding-top: 40px; }
+
+/*About*/
 .poema {
   width: 100%;
   font-family: monospace; }
+
+h2.title.text-center {
+  padding: 4%; }
 
 .yo {
   padding: 10px; }
@@ -5758,23 +5751,46 @@ p.yo.center {
 .progreso-skills {
   margin-top: 70px; }
 
+.progress-bar-warning {
+  background-color: #f0ad4e;
+  color: black;
+  font-family: monospace;
+  font-style: italic; }
+
 .contenido-skills {
   font-size: 35px;
   font-family: initial;
   padding: 10%; }
 
 .poema {
-  background-color: black;
+  background: url(../img/fondoparapoema.jpg);
+  background-attachment: fixed;
   color: white;
   font-family: monospace; }
   .poema .row {
     margin-right: 0px;
     margin-left: 0px; }
 
+/*Portafolio*/
+.portafolio {
+  min-height: 50px; }
+
+.work {
+  max-width: 100%;
+  padding: 3%;
+  background-color: #bdc3c7; }
+
+.gray:hover {
+  background-color: gray; }
+
+/*Inicio del hover*/
+/* Fin del Hover*/
+/*Contacto*/
 .contacto {
   width: 40%;
   margin: 0 auto; }
 
+/*Footer*/
 .footer {
   background-color: #EB9532;
   width: 100%;
