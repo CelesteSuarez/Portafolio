@@ -36,6 +36,11 @@ img.logo {
 
   .navbar-default {
   background-color: white;
+  position: fixed;
+  z-index: 11;
+  width: 100%;
+  border-radius: 0px;
+
   }
 
  h1{
@@ -128,7 +133,7 @@ h4 {
 h2.title.text-center {
   padding: 4%;
   }
-  
+
 .yo{
   padding: 10px;
 }
@@ -219,6 +224,11 @@ p.yo.center {
 
 }
 
+
+
+.contac-btn {
+  text-align: center;
+  }
 /*Footer*/
 
 .footer{

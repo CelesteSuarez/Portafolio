@@ -5651,7 +5651,11 @@ img.logo {
   font-size: 20px; }
 
 .navbar-default {
-  background-color: white; }
+  background-color: white;
+  position: fixed;
+  z-index: 11;
+  width: 100%;
+  border-radius: 0px; }
 
 h1 {
   font-family: Lobster; }
@@ -5789,6 +5793,9 @@ p.yo.center {
 .contacto {
   width: 40%;
   margin: 0 auto; }
+
+.contac-btn {
+  text-align: center; }
 
 /*Footer*/
 .footer {
