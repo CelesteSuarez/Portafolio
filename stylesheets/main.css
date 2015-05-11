@@ -5642,10 +5642,6 @@ img.logo {
   margin-bottom: 0px;
   border: 1px solid transparent; }
 
-.navbar-bar {
-  font-family: webkit-pictograph;
-  font-size: 20px; }
-
 .navbar-nav {
   font-family: Lobster;
   font-size: 20px; }
@@ -5656,12 +5652,6 @@ img.logo {
   z-index: 11;
   width: 100%;
   border-radius: 0px; }
-
-h1 {
-  font-family: Lobster; }
-
-h2 {
-  font-family: Lobster; }
 
 h3 {
   font-size: 85px; }
@@ -5735,6 +5725,9 @@ h4 {
   width: 100%;
   font-family: monospace; }
 
+.content {
+  padding: 4%; }
+
 .yo {
   padding: 10px; }
 
@@ -5782,12 +5775,9 @@ p.yo.center {
     margin-left: 0px; }
 
 /*Contacto*/
-.contacto {
-  width: 40%;
+input#email {
+  width: 25%;
   margin: 0 auto; }
-
-.contac-btn {
-  text-align: center; }
 
 /*Footer*/
 .footer {
