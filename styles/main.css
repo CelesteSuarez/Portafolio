@@ -5692,7 +5692,7 @@ h4 {
   width: 50%; }
 
 .title-me {
-  padding: 2%; }
+  font-family: Lobster; }
 
 /*Portafolio*/
 .portafolio {
@@ -5749,9 +5749,7 @@ p.yo.center {
   font-family: initial; }
 
 .title-skills {
-  padding: 2%;
-  font-family: monospace;
-  font-style: italic; }
+  padding: 2%; }
 
 .skills {
   width: 100%; }
@@ -5790,7 +5788,7 @@ input#email {
   width: 100%;
   margin-top: 5%; }
 
-.social-linkedin:hover {
+.social-linkedin {
   width: 25%;
   margin: 0 auto;
   float: left; }
@@ -6246,8 +6244,5 @@ input#email {
 
 .text-lobster {
   font-family: Lobster; }
-
-.border {
-  border-radius: 80%; }
 
 /*# sourceMappingURL=main.css.map */
