@@ -5660,6 +5660,9 @@ h4 {
   font-size: 28px;
   font-family: Lato; }
 
+@media screen and (min-width: 1023px) {
+  .navbar-nav {
+    margin-left: 20px; } }
 /*Portada*/
 .fotoportada {
   position: relative;
@@ -5726,7 +5729,8 @@ h4 {
   font-family: monospace; }
 
 .content {
-  padding: 4%; }
+  padding: 4%;
+  font-size: 16px; }
 
 h2.title-bottom.text-center {
   padding-bottom: 4%; }
@@ -5790,7 +5794,7 @@ input#email {
   width: 100%;
   margin-top: 5%; }
 
-.social-linkedin:hover {
+.social-linkedin {
   width: 25%;
   margin: 0 auto;
   float: left; }

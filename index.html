@@ -12,22 +12,24 @@
 <body>
 	<nav class="navbar navbar-default"><!--INICIO:Navbar-->
 		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<div class="cajalogo"><img class="logo"src="img/celeste-logo.png"></div>
-			</div>
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav">
-					<li><a href="#Portafolio">Portafolio</a></li>
-						<li><a href="#about">Sobre mí</a></li>
-					<li><a href="#contacto">Contacto</a></li>
-					<li><a href="#Blog">Blog</a></li>
-				</ul>
+			<div class="row">
+				<div class="navbar-header  col-md-4">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div class="cajalogo"><img class="logo"src="img/celeste-logo.png"></div>
+				</div>
+				<div class="collapse navbar-collapse  col-md-8" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="#Portafolio">Portafolio</a></li>
+							<li><a href="#about">Sobre mí</a></li>
+						<li><a href="#contacto">Contacto</a></li>
+						<li><a href="#Blog">Blog</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</nav><!--END:Navbar-->
@@ -165,9 +167,10 @@
 								<p class="poema text-center">Que abraza con amor a otras cajas</p>
 								<p class="poema text-center">que son cada parte de mi landing page</p>
 								<p class="poema text-center">Luego de ver la necesidad del cliente</p>
+								<p class="poema text-center">Y entender a conciencia la experiencia de usuario</p>
 								<p class="poema text-center">Se crea la página web</p>
-								<p class="poema text-center">La útil y hermosa página web</p>
-								<p class="poema text-center">Con belleza y sentido</p>
+								<p class="poema text-center">La hermosa y útil página web</p>
+								<p class="poema text-center">Con belleza y sentido.</p>
 								<p class="poema text-center">Como siento ahora tengo</p>
 								<p class="poema text-center">Desde que empecé</p>
 								<p class="poema text-center">amar el lenguaje del HTML5</p>
@@ -228,7 +231,7 @@
 							</div><!--END:Linkein-->
 								<div class="social-linkedin"><!--INICIO:Linkein-->
 									<a href="https://www.linkedin.com/profile/view?id=413515trk=nav_responsive_tab_profile">
-										<img class="border"src="img/in.png">
+										<img src="img/in.png">
 									</a>		
 							</div><!--END:Linkein-->
 						</div>
@@ -241,7 +244,7 @@
 		</script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js">
 	</script>
-		<script><!--INICIO: Baje soft-->
+		<script>
 		$(function() {
 			  $('a[href*=#]:not([href=#])').click(function() {
 				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -249,13 +252,13 @@
 				  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
 				  if (target.length) {
 					$('html,body').animate({
-					  scrollTop: target.offset().top
-					}, 1000);
+					  scrollTop: target.offset().top - 120 
+					} , 1000);
 					return false;
 				  }
 				}
 			  });
-			});
-	</script><!--END:baje soft-->
+			});  
+	</script>
 </body>
 </html>

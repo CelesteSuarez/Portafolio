@@ -47,6 +47,12 @@ h4 {
   font-family: Lato;
   }
 
+@media screen and (min-width: 1023px){
+  .navbar-nav{
+    margin-left: 20px;
+  }
+}
+
 /*Portada*/
 
 .fotoportada{
@@ -134,6 +140,7 @@ h4 {
 
 .content{
   padding:4%;
+  font-size: 16px;
 }
 
 h2.title-bottom.text-center {
