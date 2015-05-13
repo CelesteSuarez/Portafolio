@@ -5701,10 +5701,17 @@ h4 {
 .portafolio {
   min-height: 50px; }
 
-.work {
-  max-width: 100%;
-  padding: 3%;
-  background-color: #bdc3c7; }
+.gray {
+  /*background-color: #bdc3c7;*/
+  border: #f1c40f 7px solid;
+  margin-bottom: 7px; }
+  .gray .work {
+    /*max-width: 100%;*/
+    /*height: 400px;*/
+    width: 100%;
+    height: auto;
+    /*height: 400px;*/
+    overflow: hidden; }
 
 .gray:hover {
   background-color: gray; }
@@ -5733,7 +5740,8 @@ h4 {
   font-size: 16px; }
 
 h2.title-bottom.text-center {
-  padding-bottom: 4%; }
+  padding-bottom: 4%;
+  font-family: monospace; }
 
 .yo {
   padding: 10px; }
