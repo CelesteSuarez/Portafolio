@@ -5784,20 +5784,33 @@ p.yo.center {
     margin-left: 0px; }
 
 /*Contacto*/
-input#email {
-  width: 25%;
-  margin: 0 auto; }
+#contacto {
+  padding: 5%;
+  width: 100%;
+  background-image: url(../img/wall4.png); }
+  #contacto p.convencer.text-center {
+    font-size: 20px;
+    font-family: monospace;
+    font-style: italic;
+    padding-top: 3%;
+    padding-bottom: 3%; }
+  #contacto img.correo {
+    width: 40%; }
 
 /*Footer*/
 .footer {
   background-color: #EB9532;
   width: 100%;
-  margin-top: 5%; }
+  padding-top: 2%;
+  padding-bottom: 2%; }
 
 .social-linkedin {
   width: 25%;
   margin: 0 auto;
   float: left; }
+
+img.logo-contacto {
+  width: 20%; }
 
 .p-0 {
   padding: rem(0) !important;
@@ -6253,5 +6266,9 @@ input#email {
 
 .border {
   border-radius: 80%; }
+
+.centro {
+  margin: 0 auto;
+  width: 44%; }
 
 /*# sourceMappingURL=main.css.map */
