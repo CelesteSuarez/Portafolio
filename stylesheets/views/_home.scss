@@ -106,7 +106,6 @@ h4 {
   margin-bottom: 7px;
   .work {
     width: 100%;
-    height: 300px;
     overflow: hidden;
   }
 }
@@ -135,7 +134,7 @@ h4 {
 }
 
 .content{
-  padding:4%;
+  padding-bottom:4%;
   font-size: 16px;
 }
 
@@ -149,11 +148,10 @@ h2.title-bottom.text-center {
 }
 
 p.yo.center {
-  padding: 10px 126px 10px 126px;
-  text-align: center;
-  font-family:monospace;
+  padding: 30px 145px 30px 145px;
+  text-align: justify;
+  font-family: monospace;
   font-style: italic;
-
   }
 
 @media screen and (max-width:$screen-phone){
@@ -209,7 +207,6 @@ p.yo.center {
 
 
 #contacto {
-  padding: 5%;
   width: 100%;
   background-image: url(../img/wall4.png);
    p.convencer.text-center{
@@ -226,7 +223,9 @@ img.correo {
 
 }
  
- 
+ .row {
+  margin-right: 0;
+}
 
 /*Footer*/
 
