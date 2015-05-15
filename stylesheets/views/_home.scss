@@ -44,8 +44,9 @@ h3{
 
 h4 {
   font-size: 28px;
-  font-family: Lato;
-  }
+  font-family: Monospace;
+  font-style: italic;
+}
 
 @media screen and (min-width: 1023px){
   .navbar-nav{
@@ -88,7 +89,6 @@ h4 {
 .cajalogo{
   width: 50%;
 }
-
 
 .title-me {
   padding: 2%;
@@ -134,12 +134,11 @@ h4 {
 }
 
 .content{
-  padding-bottom:4%;
   font-size: 16px;
 }
 
 h2.title-bottom.text-center {
-  padding-bottom: 4%;
+  padding-bottom: 2%;
   font-family: monospace;
   }
   
@@ -147,12 +146,13 @@ h2.title-bottom.text-center {
   padding: 10px;
 }
 
-p.yo.center {
-  padding: 30px 145px 30px 145px;
+p.yo.center{
+  padding: 80px 145px 0 145px;
   text-align: justify;
   font-family: monospace;
   font-style: italic;
-  }
+  font-size: 17px;
+}
 
 @media screen and (max-width:$screen-phone){
 p.yo.center {
@@ -187,9 +187,9 @@ p.yo.center {
   }
 
 .contenido-skills {
-  font-size: 35px;
-  font-family: initial;
-  padding: 10%;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 5%;
   }
   .poema{
     background: url(../img/fondoparapoema.jpg);
@@ -203,8 +203,11 @@ p.yo.center {
 }
 
 
-/*Contacto*/
+img.flat-icon {
+  width: 20%;
+}
 
+/*Contacto*/
 
 #contacto {
   width: 100%;
@@ -243,7 +246,6 @@ img.correo {
     }
   }
 }
-
 
 
 @media screen and (max-width:$screen-phone){
