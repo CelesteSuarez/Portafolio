@@ -5702,9 +5702,9 @@ h4 {
   min-height: 50px; }
 
 .gray {
-  background-color: #795548;
-  border: #795548 3px solid;
-  margin-bottom: 7px; }
+  margin-bottom: 7px;
+  border: dashed 1px brown;
+  padding: 2%; }
   .gray .work {
     width: 100%;
     overflow: hidden; }
@@ -5793,7 +5793,7 @@ p.yo.center {
     padding-top: 3%;
     padding-bottom: 3%; }
   #contacto img.correo {
-    width: 40%; }
+    width: 20%; }
 
 .row {
   margin-right: 0; }
@@ -5804,15 +5804,17 @@ p.yo.center {
   width: 100%;
   padding-top: 2%;
   padding-bottom: 2%; }
+  .footer .social-linkedin {
+    width: 25%;
+    margin: 0 auto;
+    float: left; }
+    .footer .social-linkedin img.logo-contacto {
+      width: 20%; }
 
-.social-linkedin {
-  width: 25%;
-  margin: 0 auto;
-  float: left; }
-
-img.logo-contacto {
-  width: 20%; }
-
+@media screen and (max-width: 480px) {
+  .centro {
+    margin: 5% auto;
+    width: 66%; } }
 .p-0 {
   padding: rem(0) !important;
   padding: 0px !important; }

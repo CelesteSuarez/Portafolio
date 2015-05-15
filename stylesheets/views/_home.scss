@@ -101,9 +101,9 @@ h4 {
 }
 
 .gray {
-  background-color: #795548;
-  border: #795548 3px solid;
   margin-bottom: 7px;
+  border: dashed 1px brown;
+  padding: 2%;
   .work {
     width: 100%;
     overflow: hidden;
@@ -218,7 +218,7 @@ p.yo.center {
 }
 
 img.correo {
-  width: 40%;
+  width: 20%;
   }
 
 }
@@ -234,15 +234,21 @@ img.correo {
   width: 100%;
   padding-top: 2%;
   padding-bottom: 2%;
-}
-
-.social-linkedin{
+  .social-linkedin{
   width: 25%;
   margin: 0 auto;
   float: left;
+  img.logo-contacto {
+  width: 20%;
+    }
+  }
 }
 
-img.logo-contacto {
-  width: 20%;
-  }
 
+
+@media screen and (max-width:$screen-phone){
+  .centro {
+  margin: 5% auto;
+  width: 66%;
+  }
+}
