@@ -5720,7 +5720,11 @@ h4 {
   margin: 0 auto;
   position: relative;
   left: 22%;
-  padding-top: 40px; }
+  padding-top: 10px; }
+
+.profile {
+  padding-bottom: 4%;
+  padding-top: 1%; }
 
 /*Poema*/
 .poema {
@@ -5738,7 +5742,7 @@ h2.title-bottom.text-center {
   padding: 10px; }
 
 p.yo.center {
-  padding: 80px 145px 0 145px;
+  padding: 20px 145px 0 145px;
   text-align: justify;
   font-family: monospace;
   font-style: italic;
