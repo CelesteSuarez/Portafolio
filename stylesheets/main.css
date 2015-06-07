@@ -5820,7 +5820,8 @@ img.flat-icon {
 @media screen and (max-width: 480px) {
   .centro {
     margin: 5% auto;
-    width: 66%; } }
+    width: 60%;
+    text-align: center; } }
 .p-0 {
   padding: rem(0) !important;
   padding: 0px !important; }
