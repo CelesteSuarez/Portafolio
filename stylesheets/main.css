@@ -5780,7 +5780,8 @@ p.yo.center {
   background: url(../img/fondoparapoema.jpg);
   background-attachment: fixed;
   color: white;
-  font-family: monospace; }
+  font-family: monospace;
+  padding: 2%; }
   .poema .row {
     margin-right: 0px;
     margin-left: 0px; }
