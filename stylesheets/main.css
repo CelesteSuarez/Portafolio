@@ -5760,7 +5760,8 @@ p.yo.center {
   padding: 2%; }
 
 .skills {
-  width: 100%; }
+  width: 100%;
+  height: 50%; }
 
 .progreso-skills {
   margin-top: 70px; }
