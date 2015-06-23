@@ -5787,10 +5787,9 @@ p.yo.center {
   line-height: 0;
   color: black;
   font-style: italic; }
-
-.row {
-  margin-right: 0px;
-  margin-left: 0px; }
+  .poema .row {
+    margin-right: 0px;
+    margin-left: 0px; }
 
 img.flat-icon {
   width: 20%; }
@@ -5820,8 +5819,8 @@ img.flat-icon {
     width: 25%;
     margin: 0 auto;
     float: left; }
-    .footer .social-linkedin img.logo-contacto {
-      width: 20%; }
+  .footer img.logo-contacto {
+    width: 20%; }
 
 @media screen and (max-width: 480px) {
   .centro {
