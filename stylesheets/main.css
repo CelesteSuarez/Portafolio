@@ -5727,10 +5727,6 @@ h4 {
   padding-top: 1%; }
 
 /*Poema*/
-.poema {
-  width: 100%;
-  font-family: monospace; }
-
 .row.lo {
   padding: 2%; }
 
@@ -5785,10 +5781,12 @@ p.yo.center {
   background-attachment: fixed;
   color: white;
   font-family: monospace;
-  padding: 2%; }
-  .poema .row {
-    margin-right: 0px;
-    margin-left: 0px; }
+  padding: 2%;
+  line-height: 0; }
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px; }
 
 img.flat-icon {
   width: 20%; }
