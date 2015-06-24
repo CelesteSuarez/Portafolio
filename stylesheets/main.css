@@ -5731,6 +5731,9 @@ h4 {
   width: 100%;
   font-family: monospace; }
 
+.row.lo {
+  padding: 2%; }
+
 .content {
   font-size: 16px; }
 
