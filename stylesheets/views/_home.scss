@@ -203,7 +203,6 @@ p.yo.center {
     background-attachment: fixed;
     font-family: monospace;
     padding: 2%;
-    line-height: 0;
     color: black;
     font-style: italic;
     .row{
@@ -211,7 +210,8 @@ p.yo.center {
          margin-left: 0px; 
     }
 }
-    
+  
+
 img.flat-icon {
   width: 20%; 
 }
@@ -240,14 +240,14 @@ img.flat-icon {
 /*Footer*/
 
 .footer{
-  background-color: #EB9532;
-  width: 100%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+    background-color: #EB9532;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
   .social-linkedin{
-    width: 25%;
-    margin: 0 auto;
-    float: left;
+      width: 25%;
+      margin: 0 auto;
+      float: left;
   }
   img.logo-contacto {
     width: 20%;
